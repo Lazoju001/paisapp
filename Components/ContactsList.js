@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {StyleSheet, View, Text , Dimensions , FlatList } from 'react-native';
-import { Fontisto } from '@expo/vector-icons';
+
 
 const { widht , height } = Dimensions.get('screen')
 

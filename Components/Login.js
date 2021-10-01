@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Button, TextInput , TouchableOpacity } from 'react-native';
+import {StyleSheet, View, Text , TextInput , TouchableOpacity } from 'react-native';
 import { AuthContext } from '../Context';
 import { Entypo } from '@expo/vector-icons';
 
@@ -112,8 +112,7 @@ const styles = StyleSheet.create({
     },view1:{
         flex:1,       
         alignItems:'center',
-        justifyContent:'flex-end',
-        // backgroundColor:'gray'
+        justifyContent:'flex-end',      
     },view2:{
         flex:1,
         alignItems:'center',

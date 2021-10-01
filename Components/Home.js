@@ -1,11 +1,11 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Pressable } from 'react-native';
+import {StyleSheet, View, Text  } from 'react-native';
 import Carousel from './Carousel'
 import Services from './Services'
 import List from './List'
 import { AntDesign , Ionicons } from '@expo/vector-icons';
 import axios from 'axios'
-function HomeScreen({ navigation }) {
+function HomeScreen() {
 
     const [cards , setCards] = React.useState([])
     React.useEffect(() => {
@@ -58,32 +58,23 @@ const styles = StyleSheet.create({
     },view1:{
         flex:0.4, 
         flexDirection:'row',          
-        alignItems:'flex-end',
-        // justifyContent:'center',
-        // backgroundColor:'gray'
+        alignItems:'flex-end',      
     },view2:{
         flex:1,      
         alignItems:'center',
         justifyContent:'center'
     },view3:{
-        flex:0.7,
-        // borderWidth:1, 
-        // borderColor:'black',  
+        flex:0.7,        
     },view4:{
-        flex:1,
-        // borderWidth:1, 
-        // borderColor:'black',    
-        // alignItems:'center',    
+        flex:1,          
         justifyContent:'center'
-    },title:{
-        // backgroundColor:'red',
+    },title:{        
         width:'80%',
         height:'50%'
     }
     ,title1:{
         flex:1, 
-        flexDirection:'row',
-        // backgroundColor:'green',
+        flexDirection:'row',        
         width:'30%',
         alignItems:'center',
         justifyContent:'center',

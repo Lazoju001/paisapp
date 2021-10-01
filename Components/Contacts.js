@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Pressable, TextInput } from 'react-native';
+import {StyleSheet, View, Text , TextInput } from 'react-native';
 import ContactsList from './ContactsList'
 import axios from 'axios'
 
@@ -50,9 +50,7 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'center',
 },view1:{
-    flex:0.4, 
-    // borderWidth:1,
-    // borderColor:'black', 
+    flex:0.4,
     backgroundColor:'#E8E8E8',   
     alignItems:'center',
     justifyContent:'flex-end'

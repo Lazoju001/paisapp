@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Animated , StyleSheet, View, Text , Dimensions, Pressable, Image } from 'react-native';
+import {StyleSheet, View, Text , Dimensions, Image } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 
@@ -19,7 +19,7 @@ function Cards (props) {
               <Text style={{color:'white'}}>Balance</Text>       
             </View>   
             <View >              
-            <Image style={{ width:40, height:40, alignSelf: "center"}} resizeMode={'contain'} source={require('./assets/master.png')} />
+            <Image style={{ width:40, height:40, alignSelf: "center"}} resizeMode={'contain'} source={require('../assets/master.png')} />
             </View>          
           </View>
           <View style={styles.view2} >
@@ -87,21 +87,16 @@ function Cards (props) {
     },view1:{
       flex:0.5,
       flexDirection:'row',
-      width:'90%',
-      // alignItems: 'center',
-      // justifyContent: 'center'
+      width:'90%',      
     },view2:{
       flex:2,     
       width:'90%',
-      paddingTop:20,
-      // alignItems: 'center',
+      paddingTop:20,    
       justifyContent: 'space-between'
     },view3:{
       flex:0.7,
       flexDirection:'row',
-      width:'90%',
-      // alignItems: 'center',
-      // justifyContent: 'center'
+      width:'90%',    
     }
   })
   

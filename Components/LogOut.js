@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Button, TouchableOpacity } from 'react-native';
+import {StyleSheet, View, Text , TouchableOpacity } from 'react-native';
 import { AuthContext } from "../Context";
 import { Entypo } from '@expo/vector-icons';
 

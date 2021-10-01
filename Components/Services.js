@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Pressable , TouchableOpacity ,Dimensions , Image } from 'react-native';
+import {StyleSheet, View, Text ,TouchableOpacity ,Dimensions , Image } from 'react-native';
 import { Fontisto } from '@expo/vector-icons';
 
 function Services() {
@@ -8,7 +8,7 @@ function Services() {
         <TouchableOpacity onPress={() => console.log('funcion desactivada')}>
         <View style={{alignContent: "center", alignItems: "center" ,justifyContent:'center', backgroundColor:'#E4FFF0', marginHorizontal:5, width:70 , height:70 , borderRadius:20}}>
         
-            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('./assets/wallet.png')} />
+            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('../assets/wallet.png')} />
             
         </View>
         <Text style={{marginTop:10, alignSelf:'center',fontSize: 14, color: "#616161"}}>Billetera</Text>
@@ -16,7 +16,7 @@ function Services() {
       <TouchableOpacity onPress={() => console.log('funcion desactivada')}>
         <View style={{alignContent: "center", alignItems: "center" ,justifyContent:'center', backgroundColor:'#FEEAD4', marginHorizontal:5 , width:70 , height:70 , borderRadius:20}}>
        
-            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('./assets/transfer.png')} />
+            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('../assets/transfer.png')} />
             
         </View>
         <Text style={{marginTop:10, alignSelf:'center',fontSize: 14, color: "#616161"}}>Transferir</Text>
@@ -24,7 +24,7 @@ function Services() {
       <TouchableOpacity onPress={() => console.log('funcion desactivada')}>
         <View style={{alignContent: "center", alignItems: "center" ,justifyContent:'center', backgroundColor:'#EEE3FF', marginHorizontal:5 , width:70 , height:70 , borderRadius:20}}>
        
-            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('./assets/google-docs.png')} />
+            <Image style={{ color:'#73CC9B',width:25, height:25, alignSelf: "center"}} resizeMode={'cover'} source={require('../assets/google-docs.png')} />
             
         </View>
         <Text style={{marginTop:10, alignSelf:'center',fontSize: 14, color: "#616161"}}>Pagar</Text>

@@ -61,9 +61,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         width:'100%',
-        backgroundColor:'#E8E8E8',
-        // alignItems: 'center',
-        // justifyContent: 'center',
+        backgroundColor:'#E8E8E8',    
     },
 });
   

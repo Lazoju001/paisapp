@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Pressable } from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 
 function Splash() {

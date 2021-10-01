@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyleSheet, View, Text , Pressable , Alert } from 'react-native';
+import {StyleSheet} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -10,7 +10,7 @@ import LogoutScreen from './Components/LogOut'
 import Splash from './Components/Splash';
 import { AuthContext } from "./Context";
 import axios from 'axios'
-import { Entypo , AntDesign  } from '@expo/vector-icons';
+import { AntDesign  } from '@expo/vector-icons';
 
 
 
